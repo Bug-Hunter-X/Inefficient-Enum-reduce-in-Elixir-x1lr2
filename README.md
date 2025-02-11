@@ -1,0 +1,1 @@
+This repository demonstrates an example of inefficient code using Enum.reduce in Elixir and provides an optimized solution. The original code iterates over the entire list even when unnecessary, while the improved version uses Enum.filter for better performance with large datasets. The performance difference becomes more pronounced as the list size grows.
